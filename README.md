@@ -2,8 +2,8 @@
 
 ## Text to Image
 
-python T2L.py
+python T2l.py
 
 ## RGB to Chest
 
-python XL.py
+python RGB2Xchest_generation.py
