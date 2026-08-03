@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+data/miniimagenet/
+data/chestx/
+data/generated/
+smoke_data/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+wandb/
