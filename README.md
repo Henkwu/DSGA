@@ -382,5 +382,3 @@ DSGA/
 }
 ```
 
-Before making the repository public, the authors should add the final publication venue,
-DOI and a project license approved by all rights holders.
