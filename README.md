@@ -9,7 +9,7 @@ previously unseen ChestX disease classes. It combines (1) transformation-based
 source augmentation, (2) four-level feature alignment, and (3) text-to-image
 auxiliary support samples at meta-test time.
 
-![DSGA framework](assets/paper_figures/Frame.pdf)
+![DSGA framework](assets/paper_figures/Frame.png)
 
 > **Research-use notice.** Generated images are prompt-conditioned auxiliary
 > samples. They are not expert annotations, are never used as query images, and
