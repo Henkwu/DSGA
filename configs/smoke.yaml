@@ -1,0 +1,46 @@
+seed: 7
+device: cpu
+output_dir: outputs/smoke
+data:
+  image_size: 64
+  source:
+    folder: smoke_data/source
+    manifest: null
+  target:
+    folder: smoke_data/target
+    manifest: null
+  generated:
+    folder: smoke_data/generated
+    qc_manifest: null
+model:
+  architecture: resnet10
+  layer_weights: [0.1, 0.27, 0.189, 0.441]
+  temperature: 0.1
+augmentation:
+  clip_limit: 4.0
+  tile_grid: 8
+  blur_kernel: 5
+collaborative:
+  epochs: 1
+  batch_size: 4
+  workers: 0
+  learning_rate: 0.001
+  momentum: 0.9
+  weight_decay: 0.0005
+  augmented_loss_weight: 1.0
+meta_train:
+  episodes: 2
+  episodes_per_batch: 1
+  ways: 2
+  shots: 1
+  queries: 1
+  learning_rate: 0.01
+  momentum: 0.9
+  weight_decay: 0.001
+  save_every: 1
+evaluation:
+  episodes: 2
+  ways: 2
+  shots: [1]
+  queries: 1
+  generated_per_class: 1
