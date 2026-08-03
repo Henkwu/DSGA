@@ -27,7 +27,6 @@ auxiliary support samples at meta-test time.
 - meta-testing with generated images added to **support only**;
 - prototype-based Grad-CAM visualizations;
 - paper figures in vector PDF and GitHub-friendly PNG formats;
-- unit tests and a small CPU smoke-test configuration.
 
 The original repository contained only text-to-image and RGB-to-X-ray-style scripts.
 Those filenames remain as aliases for the new entry points, while the complete pipeline is
