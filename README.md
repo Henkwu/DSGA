@@ -2,7 +2,7 @@
 
 [简体中文说明](README_zh-CN.md)
 
-**Domain-Specific Generative Augmentation for Cross-Domain Few-Shot Chest X-ray Disease Recognition**
+**DSGA: Domain-Specific Generative Augmentation for Cross-Domain Few-Shot Chest X-ray Disease Recognition**
 
 DSGA learns a source-domain representation from miniImageNet and evaluates it on
 previously unseen ChestX disease classes. It combines (1) transformation-based
